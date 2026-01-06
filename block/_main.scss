@@ -1,0 +1,30 @@
+.countries__flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 80px;
+    color: red;
+    font-weight: 700;
+}
+
+img {
+    margin: 20px 0px;
+}
+
+span {
+    font-weight: 800;
+    color: cyan;
+    margin-right: 10px;
+}
+
+.every__container {
+    width: 280px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: black;
+    border-radius: 15px;
+    padding: 0px 28px;
+}

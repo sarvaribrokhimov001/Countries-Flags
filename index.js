@@ -15,18 +15,16 @@ function showCountry(data) {
         
     countriesFlags.innerHTML += `
     
-    
-         <div>
-           <img src=${flags.svg} width='100' alt="">
-           <p class="country__name">${name.common}</p>
-           <p class="country__region"> ${region} </p>
-           <p class="country__capital"> ${capital} </p>
-           <p class="country__currencies"> ${currencies.name} </p>
-           <p class="country__languages"> ${languages} </p>
-           <p class="country__population"> ${population} </p>
-        </div>
+         <div class="every__container">
+           <img src=${flags.svg} width='140' alt="">
+           <p class="country__name"> <span> Name: </span> ${name.common} </p>
+           <p class="country__region"> <span> Region: </span> ${region} </p>
+           <p class="country__capital"> <span> Capital: </span> ${capital} </p>
+           <p class="country__currencies"> <span> Currency: </span> ${currencies.name} </p>
+           <p class="country__languages"> <span> Language: </span> ${languages} </p>
+           <p class="country__population"> <span> Population: </span> ${population} </p>
+        </div> <!-- every__container -->
     
     `
-    })
-   
+    })  
  };
